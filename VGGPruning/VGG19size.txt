@@ -1,0 +1,188 @@
+Files already downloaded and verified
+Files already downloaded and verified
+==> Building model..
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 64, 32, 32]           1,792
+       BatchNorm2d-2           [-1, 64, 32, 32]             128
+              ReLU-3           [-1, 64, 32, 32]               0
+            Conv2d-4           [-1, 64, 32, 32]          36,928
+       BatchNorm2d-5           [-1, 64, 32, 32]             128
+              ReLU-6           [-1, 64, 32, 32]               0
+         MaxPool2d-7           [-1, 64, 16, 16]               0
+            Conv2d-8          [-1, 128, 16, 16]          73,856
+       BatchNorm2d-9          [-1, 128, 16, 16]             256
+             ReLU-10          [-1, 128, 16, 16]               0
+           Conv2d-11          [-1, 128, 16, 16]         147,584
+      BatchNorm2d-12          [-1, 128, 16, 16]             256
+             ReLU-13          [-1, 128, 16, 16]               0
+        MaxPool2d-14            [-1, 128, 8, 8]               0
+           Conv2d-15            [-1, 256, 8, 8]         295,168
+      BatchNorm2d-16            [-1, 256, 8, 8]             512
+             ReLU-17            [-1, 256, 8, 8]               0
+           Conv2d-18            [-1, 256, 8, 8]         590,080
+      BatchNorm2d-19            [-1, 256, 8, 8]             512
+             ReLU-20            [-1, 256, 8, 8]               0
+           Conv2d-21            [-1, 256, 8, 8]         590,080
+      BatchNorm2d-22            [-1, 256, 8, 8]             512
+             ReLU-23            [-1, 256, 8, 8]               0
+           Conv2d-24            [-1, 256, 8, 8]         590,080
+      BatchNorm2d-25            [-1, 256, 8, 8]             512
+             ReLU-26            [-1, 256, 8, 8]               0
+        MaxPool2d-27            [-1, 256, 4, 4]               0
+           Conv2d-28            [-1, 512, 4, 4]       1,180,160
+      BatchNorm2d-29            [-1, 512, 4, 4]           1,024
+             ReLU-30            [-1, 512, 4, 4]               0
+           Conv2d-31            [-1, 512, 4, 4]       2,359,808
+      BatchNorm2d-32            [-1, 512, 4, 4]           1,024
+             ReLU-33            [-1, 512, 4, 4]               0
+           Conv2d-34            [-1, 512, 4, 4]       2,359,808
+      BatchNorm2d-35            [-1, 512, 4, 4]           1,024
+             ReLU-36            [-1, 512, 4, 4]               0
+           Conv2d-37            [-1, 512, 4, 4]       2,359,808
+      BatchNorm2d-38            [-1, 512, 4, 4]           1,024
+             ReLU-39            [-1, 512, 4, 4]               0
+        MaxPool2d-40            [-1, 512, 2, 2]               0
+           Conv2d-41            [-1, 512, 2, 2]       2,359,808
+      BatchNorm2d-42            [-1, 512, 2, 2]           1,024
+             ReLU-43            [-1, 512, 2, 2]               0
+           Conv2d-44            [-1, 512, 2, 2]       2,359,808
+      BatchNorm2d-45            [-1, 512, 2, 2]           1,024
+             ReLU-46            [-1, 512, 2, 2]               0
+           Conv2d-47            [-1, 512, 2, 2]       2,359,808
+      BatchNorm2d-48            [-1, 512, 2, 2]           1,024
+             ReLU-49            [-1, 512, 2, 2]               0
+           Conv2d-50            [-1, 512, 2, 2]       2,359,808
+      BatchNorm2d-51            [-1, 512, 2, 2]           1,024
+             ReLU-52            [-1, 512, 2, 2]               0
+        MaxPool2d-53            [-1, 512, 1, 1]               0
+        AvgPool2d-54            [-1, 512, 1, 1]               0
+           Linear-55                   [-1, 10]           5,130
+================================================================
+Total params: 20,040,522
+Trainable params: 20,040,522
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 7.18
+Params size (MB): 76.45
+Estimated Total Size (MB): 83.64
+
+Model State Dict - 
+
+module.features.0.weight 	 torch.Size([64, 3, 3, 3])
+module.features.0.bias 	 torch.Size([64])
+module.features.1.weight 	 torch.Size([64])
+module.features.1.bias 	 torch.Size([64])
+module.features.1.running_mean 	 torch.Size([64])
+module.features.1.running_var 	 torch.Size([64])
+module.features.1.num_batches_tracked 	 torch.Size([])
+module.features.3.weight 	 torch.Size([64, 64, 3, 3])
+module.features.3.bias 	 torch.Size([64])
+module.features.4.weight 	 torch.Size([64])
+module.features.4.bias 	 torch.Size([64])
+module.features.4.running_mean 	 torch.Size([64])
+module.features.4.running_var 	 torch.Size([64])
+module.features.4.num_batches_tracked 	 torch.Size([])
+module.features.7.weight 	 torch.Size([128, 64, 3, 3])
+module.features.7.bias 	 torch.Size([128])
+module.features.8.weight 	 torch.Size([128])
+module.features.8.bias 	 torch.Size([128])
+module.features.8.running_mean 	 torch.Size([128])
+module.features.8.running_var 	 torch.Size([128])
+module.features.8.num_batches_tracked 	 torch.Size([])
+module.features.10.weight 	 torch.Size([128, 128, 3, 3])
+module.features.10.bias 	 torch.Size([128])
+module.features.11.weight 	 torch.Size([128])
+module.features.11.bias 	 torch.Size([128])
+module.features.11.running_mean 	 torch.Size([128])
+module.features.11.running_var 	 torch.Size([128])
+module.features.11.num_batches_tracked 	 torch.Size([])
+module.features.14.weight 	 torch.Size([256, 128, 3, 3])
+module.features.14.bias 	 torch.Size([256])
+module.features.15.weight 	 torch.Size([256])
+module.features.15.bias 	 torch.Size([256])
+module.features.15.running_mean 	 torch.Size([256])
+module.features.15.running_var 	 torch.Size([256])
+module.features.15.num_batches_tracked 	 torch.Size([])
+module.features.17.weight 	 torch.Size([256, 256, 3, 3])
+module.features.17.bias 	 torch.Size([256])
+module.features.18.weight 	 torch.Size([256])
+module.features.18.bias 	 torch.Size([256])
+module.features.18.running_mean 	 torch.Size([256])
+module.features.18.running_var 	 torch.Size([256])
+module.features.18.num_batches_tracked 	 torch.Size([])
+module.features.20.weight 	 torch.Size([256, 256, 3, 3])
+module.features.20.bias 	 torch.Size([256])
+module.features.21.weight 	 torch.Size([256])
+module.features.21.bias 	 torch.Size([256])
+module.features.21.running_mean 	 torch.Size([256])
+module.features.21.running_var 	 torch.Size([256])
+module.features.21.num_batches_tracked 	 torch.Size([])
+module.features.23.weight 	 torch.Size([256, 256, 3, 3])
+module.features.23.bias 	 torch.Size([256])
+module.features.24.weight 	 torch.Size([256])
+module.features.24.bias 	 torch.Size([256])
+module.features.24.running_mean 	 torch.Size([256])
+module.features.24.running_var 	 torch.Size([256])
+module.features.24.num_batches_tracked 	 torch.Size([])
+module.features.27.weight 	 torch.Size([512, 256, 3, 3])
+module.features.27.bias 	 torch.Size([512])
+module.features.28.weight 	 torch.Size([512])
+module.features.28.bias 	 torch.Size([512])
+module.features.28.running_mean 	 torch.Size([512])
+module.features.28.running_var 	 torch.Size([512])
+module.features.28.num_batches_tracked 	 torch.Size([])
+module.features.30.weight 	 torch.Size([512, 512, 3, 3])
+module.features.30.bias 	 torch.Size([512])
+module.features.31.weight 	 torch.Size([512])
+module.features.31.bias 	 torch.Size([512])
+module.features.31.running_mean 	 torch.Size([512])
+module.features.31.running_var 	 torch.Size([512])
+module.features.31.num_batches_tracked 	 torch.Size([])
+module.features.33.weight 	 torch.Size([512, 512, 3, 3])
+module.features.33.bias 	 torch.Size([512])
+module.features.34.weight 	 torch.Size([512])
+module.features.34.bias 	 torch.Size([512])
+module.features.34.running_mean 	 torch.Size([512])
+module.features.34.running_var 	 torch.Size([512])
+module.features.34.num_batches_tracked 	 torch.Size([])
+module.features.36.weight 	 torch.Size([512, 512, 3, 3])
+module.features.36.bias 	 torch.Size([512])
+module.features.37.weight 	 torch.Size([512])
+module.features.37.bias 	 torch.Size([512])
+module.features.37.running_mean 	 torch.Size([512])
+module.features.37.running_var 	 torch.Size([512])
+module.features.37.num_batches_tracked 	 torch.Size([])
+module.features.40.weight 	 torch.Size([512, 512, 3, 3])
+module.features.40.bias 	 torch.Size([512])
+module.features.41.weight 	 torch.Size([512])
+module.features.41.bias 	 torch.Size([512])
+module.features.41.running_mean 	 torch.Size([512])
+module.features.41.running_var 	 torch.Size([512])
+module.features.41.num_batches_tracked 	 torch.Size([])
+module.features.43.weight 	 torch.Size([512, 512, 3, 3])
+module.features.43.bias 	 torch.Size([512])
+module.features.44.weight 	 torch.Size([512])
+module.features.44.bias 	 torch.Size([512])
+module.features.44.running_mean 	 torch.Size([512])
+module.features.44.running_var 	 torch.Size([512])
+module.features.44.num_batches_tracked 	 torch.Size([])
+module.features.46.weight 	 torch.Size([512, 512, 3, 3])
+module.features.46.bias 	 torch.Size([512])
+module.features.47.weight 	 torch.Size([512])
+module.features.47.bias 	 torch.Size([512])
+module.features.47.running_mean 	 torch.Size([512])
+module.features.47.running_var 	 torch.Size([512])
+module.features.47.num_batches_tracked 	 torch.Size([])
+module.features.49.weight 	 torch.Size([512, 512, 3, 3])
+module.features.49.bias 	 torch.Size([512])
+module.features.50.weight 	 torch.Size([512])
+module.features.50.bias 	 torch.Size([512])
+module.features.50.running_mean 	 torch.Size([512])
+module.features.50.running_var 	 torch.Size([512])
+module.features.50.num_batches_tracked 	 torch.Size([])
+module.classifier.weight 	 torch.Size([10, 512])
+module.classifier.bias 	 torch.Size([10])
+Optimizer's state_dict:
