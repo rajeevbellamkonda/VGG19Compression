@@ -40,7 +40,9 @@ The project explores the compression techniques for neural nets. Specifically, i
 # VGGSqueezenet -
 
                train_s.py # Train the original VGG19 network
-
+               
+               presqueezewithriginaVGGlog.txt # Log file with original VGG19
+               
                vgg_s.py # original module definition
 
                util_s.py # monitor run time progress
@@ -48,17 +50,19 @@ The project explores the compression techniques for neural nets. Specifically, i
                vgg_sqz.py # squeeze net with fire layers
 
                train_with_sqz.py # training with squeeze model vgg_sqz
+               
+               model_after_squeeze_log.txt # Log with squeeze net
 
 # How to Run Pruning?
            
 
-              Change Directory to VGGPruning
+               Change Directory to VGGPruning
 
-               python train_cifar10.py --net vgg # Train the original VGG19 model
+               **python train_cifar10.py --net vgg # Train the original VGG19 model
 
-               python prune.py --net vgg --prune 0.75 # TO Prune the original model
+               **python prune.py --net vgg --prune 0.75 # TO Prune the original model
 
-              ./prune.sh -- Shell script to run prune with various thresholds
+              **./prune.sh -- Shell script to run prune with various thresholds
 
     
 
