@@ -3,9 +3,9 @@ Dataset: CIFAR10 Model: VGG19
 Category: Image classification
 
 To start with..
-clone the repo to your local.
 
-Unzip File 
+
+1. Unzip File 
 The CIFAR10 trained models are in checkpoint.
 
 VGG	Res18
