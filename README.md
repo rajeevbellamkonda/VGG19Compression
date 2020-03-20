@@ -58,11 +58,11 @@ The project explores the compression techniques for neural nets. Specifically, i
 
                Change Directory to VGGPruning
 
-               **python train_cifar10.py --net vgg # Train the original VGG19 model
+               python train_cifar10.py --net vgg # Train the original VGG19 model
 
-               **python prune.py --net vgg --prune 0.75 # TO Prune the original model
+               python prune.py --net vgg --prune 0.75 # TO Prune the original model
 
-              **./prune.sh -- Shell script to run prune with various thresholds
+              ./prune.sh -- Shell script to run prune with various thresholds
 
     
 
