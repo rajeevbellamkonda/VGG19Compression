@@ -72,8 +72,8 @@ The project explores the compression techniques for neural nets. Specifically, i
       
 # Resources
 
-  1. [Pruning](https://pytorch.org/tutorials/intermediate/pruning_tutorial.html)
-  2. [SqueezeNet](https://arxiv.org/abs/1602.07360)
-  3. [Quantization](https://pytorch.org/docs/stable/quantization.html)
-  4. [Github](https://github.com/kentaroy47/Deep-Compression.Pytorch)
+  * [Pruning](https://pytorch.org/tutorials/intermediate/pruning_tutorial.html)
+  * [SqueezeNet](https://arxiv.org/abs/1602.07360)
+  * [Quantization](https://pytorch.org/docs/stable/quantization.html)
+  * [Github](https://github.com/kentaroy47/Deep-Compression.Pytorch)
              
