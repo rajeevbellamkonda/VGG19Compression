@@ -51,9 +51,7 @@ The project explores the compression techniques for neural nets. Specifically, i
 # How to Run Pruning?
            
 
-        ## Change Directory to VGGPruning
-
- 
+              Change Directory to VGGPruning
 
                python train_cifar10.py --net vgg # Train the original VGG19 model
 
