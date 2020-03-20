@@ -1,5 +1,6 @@
 
 VGG Compression
+
 Overview
 The project explores the compression techniques for neural nets. Specifically, it takes VGG19 and apply a basic pruning method by trimming weights across the layers in CNN architecture. Additionally, it explores the squeeze net algorithm as a second method by squeezing the layers, improving the activations maps and slimming the frontend filters and input channels so to reduce the size of the network. The inspiration and guidance for squeeze net has been derived from the paper published at this Link  
 
