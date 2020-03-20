@@ -7,8 +7,8 @@ How to Start?
 VGGPruning - 
                traincifar10.py # Train the original VGG19 network 
                vgg.py # module definition 
-         	     util.py # monitor run time progress 
-      	        prune.py # Train and test VGG16 with pruning 
+               util.py # monitor run time progress 
+      	       prune.py # Train and test VGG16 with pruning 
                prune.sh # script to run prune.py with different input thresholds (0.75, 0.5, 0.25, 0.1) 
                VGGsize.txt - VGG19 original model size 
                trainlog.txt - log file for original traincifar10.py run 
@@ -16,6 +16,6 @@ VGGPruning -
 VGGSqueezenet - 
                train_s.py # Train the original VGG19 network 
                vgg_s.py # original module definition 
-         	     util_s.py # monitor run time progress 
+               util_s.py # monitor run time progress 
       	        vgg_sqz.py # squeeze net with fire layers 
-		             train_with_sqz.py # training with squeeze model vgg_sqz
+		train_with_sqz.py # training with squeeze model vgg_sqz
