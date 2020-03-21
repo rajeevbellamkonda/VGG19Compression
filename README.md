@@ -16,7 +16,7 @@ The project explores the compression techniques for neural nets. Specifically, i
 
 ·Unzip the file CS260finalRB.zip – It unzips into following two folders
 
- source Code has been uploaded to [github](https://github.com/rajeevbellamkonda/VGG19Compression)
+ Alternatively source Code has been uploaded to [github](https://github.com/rajeevbellamkonda/VGG19Compression)
 
  
 
