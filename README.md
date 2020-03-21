@@ -11,8 +11,6 @@ The project explores the compression techniques for neural nets. Specifically, i
 
  
 
- 
-
 # How to Start?
 ·       * Unzip the file CS260finalRB.zip – It unzips into following two folders
         * source Code has been uploaded to [github](https://github.com/rajeevbellamkonda/VGG19Compression)
@@ -58,7 +56,10 @@ The project explores the compression techniques for neural nets. Specifically, i
 
                Change Directory to VGGPruning
 
-               python train_cifar10.py --net vgg # Train the original VGG19 model
+               python train_cifar10.py --net vgg # Train the original VGG19 model 
+                           Arguments= lr = default 0.1
+                                      net = default vgg
+                                      r = default resume
 
                python prune.py --net vgg --prune 0.75 # TO Prune the original model with 75% weight reduction
 
