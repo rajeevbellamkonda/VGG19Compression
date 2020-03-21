@@ -62,11 +62,12 @@ The project explores the compression techniques for neural nets. Specifically, i
                                       r = default resume
 
                python prune.py --net vgg --prune 0.75 # TO Prune the original model with 75% weight reduction
+                           Arguments= prune = default 0.5
+                                      net = default vgg
+                                      lr = 0.01
+                                      
 
               ./prune.sh -- Shell script to run prune with various thresholds
-
-    
-
  
 
 # How to Run SqueezeNet?
