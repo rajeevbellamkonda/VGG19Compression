@@ -14,12 +14,12 @@ The project explores the compression techniques for neural nets. Specifically, i
  
 
 # How to Start?
-·       Unzip the file CS260finalRB.zip – It unzips into following two folders
-        Source Code is at Github [Link](https://github.com/rajeevbellamkonda/VGG19Compression)
+·       * Unzip the file CS260finalRB.zip – It unzips into following two folders
+        * source Code has been uploaded to Github: [Link](https://github.com/rajeevbellamkonda/VGG19Compression)
 
  
 
-# VGGPruning -
+# Folder1:VGGPruning -
 
                traincifar10.py # Train the original VGG19 network
 
@@ -37,7 +37,7 @@ The project explores the compression techniques for neural nets. Specifically, i
 
                prune_75log.txt, prune_05log.txt, prune_25log.txt # log file with pruning thresholds
 
-# VGGSqueezenet -
+# Folder2:VGGSqueezenet -
 
                train_s.py # Train the original VGG19 network
                
